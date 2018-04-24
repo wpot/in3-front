@@ -1,0 +1,54 @@
+#cabecera-container{
+	width: 100%;
+	text-align: center;
+	background-color: #E63434;
+	color:#FFFFFF;
+
+}
+#cabecera-container h2{
+	padding:0;
+	margin:0;
+}
+#cabecera-menu{
+	width: 100%;
+	text-align: center;
+	background-color: #D64835;
+
+}
+#cabecera-menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+#cabecera-menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.8em;
+}
+
+
+
+
+
+/* index.html */
+
+#img-candidatos{
+	padding: 5px;
+}
+#img-candidatos img{
+	width: 245px;
+	margin: 20px;
+	border-radius: 50px;
+	-moz-transition:-moz-transform 0.1s ease-in; 
+-webkit-transition:-webkit-transform 0.1s ease-in; 
+-o-transition:-o-transform 0.1s ease-in; 
+-ms-transition:-o-transform 0.1s ease-in;
+}
+#img-candidatos img:hover{
+-moz-transform:scale(1.1); /*Escala en la que crece la imagen 1.8x*/
+-webkit-transform:scale(1.1); /*Escala en la que crece la imagen 1.8x*/
+-o-transform:scale(1.1); /*Escala en la que crece la imagen 1.8x*/
+-ms-transform:scale(1.1); /*Escala en la que crece la imagen 1.8x*/
+}
+#img-candidatos a{
+
+}

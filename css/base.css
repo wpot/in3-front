@@ -38,6 +38,22 @@
 }
 
 
+/*cresultado casilla individual*/
+#imagen-casilla-resul-ind img{
+	width: 100%;
+	margin-bottom: 5px;
+
+}
+#btn-ver-img{
+	max-width: 200px;
+	display: block;
+	margin: auto;
+}
+#tabla-votos-por-partidos img{
+	max-width: 50px;
+	display: block;
+	margin: auto;
+}
 
 /* index.html */
 

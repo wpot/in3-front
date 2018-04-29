@@ -26,6 +26,16 @@
 }
 
 
+/*formularios*/
+
+.form-mi-css input, .form-mi-css select, .form-mi-css button{
+	margin: 3px;
+}
+#form-busqueda{
+	max-width: 300px;
+	display: block;
+	margin: auto;
+}
 
 
 

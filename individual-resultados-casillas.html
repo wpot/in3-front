@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title></title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 
 </head>
@@ -16,10 +18,10 @@
 	</div>
 	<div class="container-fluid" id="cabecera-menu">
 		<ul>
-			<li><a href="#" title="">Subir resultado de casilla</a></li>
-			<li><a href="#" title="">Verificar resultado de casilla</a></li>
+			<li><a href="#" title="" class="btn btn-block btn-danger">Subir resultado de casilla</a></li>
+			<li><a href="#" title="" class="btn btn-block btn-danger">Verificar resultado de casilla</a></li>
 		</ul>
-
+		<hr>
 	</div>	
 	<div class="container" id="conteneder-cuerpo">
 		<div class="row">
@@ -32,7 +34,24 @@
 				</div>
 
 				<hr>
+				<div class="" id="calificaciones">
+					<center>
+						<div class="btn-group" role="group" aria-label="...">
+							  <button type="button" class="btn btn-success">Bien
+							  	<span class="fa fa-thumbs-up" aria-hidden="true"></span></button>
+							  <button type="button" class="btn btn-danger">Mal
+							  	<span class="fa fa-thumbs-down" aria-hidden="true"></span></button>
+							 	
+					</div>
+					</center>
+			
 
+				<div class="progress" id="barra-calificacion">
+				  <div class="progress-bar bg-success progress-bar-striped progress-bar-animated " role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+				  <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated " role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+				 
+				</div>
+				</div>
 				<table class="table table-bordered">
 					<tr>
 						<th>Entidad Federativa</th>
@@ -50,10 +69,20 @@
 						<th>Seccion</th>
 						<td>1150</td>
 					</tr>		
-
+					<tr>
+						<th>Pdt@. de la mesa directiva</th>
+						<td>Panchita de la salinas</td>
+					</tr>
 				</table>
 
 
+				<hr>
+
+			</div>
+
+			<div class="col-md-6">
+
+				<h4>Individual:</h4>
 				<table class="table table-bordered" id="tabla-votos-por-partidos">
 					<tr>
 						<th><img src="img/pan.png" alt=""></th>
@@ -105,7 +134,59 @@
 						<td><center><button type="button" class="btn btn-lg btn-primary" disabled="disabled">116</button></center></td>
 					</tr>	
 				</table>
+			</div>
+			<div class="col-md-6">
+				<h4>Coaliciones:</h4>
+				<table class="table table-bordered" id="tabla-votos-por-uniones">
+					<tr>
+						<th>
+							<center>
+								<img src="img/pan.png" alt="">
+								<img src="img/movi.png" alt="">
+								<img src="img/prd.png" alt="">
 
+							</center>
+						</th>
+						<td>
+							<center><button type="button" class="btn btn-lg btn-primary" disabled="disabled">116</button></center>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<center>
+								<img src="img/pri.png" alt="">
+								<img src="img/verde.png" alt="">
+								<img src="img/nueva.png" alt="">
+
+							</center>
+						</th>
+						<td><center><button type="button" class="btn btn-lg btn-primary" disabled="disabled">116</button></center></td>
+					</tr>	
+					<tr>
+						<th>
+							<center>
+								<img src="img/mono.png" alt="">
+								<img src="img/pt.png" alt="">
+								<img src="img/encu.png" alt="">
+							</center>
+
+						</th>
+						<td><center><button type="button" class="btn btn-lg btn-primary" disabled="disabled">116</button></center></td>
+					</tr>
+					
+					<tr>
+						<th><center>INDEPENDIENTE 1</center></th>
+						<td><center><button type="button" class="btn btn-lg btn-primary" disabled="disabled">116</button></center></td>
+					</tr>	
+					<tr>
+						<th><center>INDEPENDIENTE 2</center></th>
+						<td><center><button type="button" class="btn btn-lg btn-primary" disabled="disabled">116</button></center></td>
+					</tr>
+					<tr>
+						<th><center>NULOS</center></th>
+						<td><center><button type="button" class="btn btn-lg btn-primary" disabled="disabled">116</button></center></td>
+					</tr>	
+				</table>
 			</div>
 		</div>
 

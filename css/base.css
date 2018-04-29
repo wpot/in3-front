@@ -1,29 +1,41 @@
 #cabecera-container{
 	width: 100%;
 	text-align: center;
-	background-color: #E63434;
+	background-color: #ee5253;
 	color:#FFFFFF;
 
 }
 #cabecera-container h2{
 	padding:0;
-	margin:0;
+	margin: 0;
 }
 #cabecera-menu{
 	width: 100%;
 	text-align: center;
-	background-color: #D64835;
-
+	background-color: #ff6b6b;
+	
 }
 #cabecera-menu ul li{
 	list-style: none;
 	display: inline-block;
+	margin-top: 5px;
 }
-#cabecera-menu ul li a{
-	text-decoration: none;
-	color: white;
-	font-size: 1.8em;
+
+/*Calificaciones*/
+#calificaciones{
+	width: 100%;
+	border: 1px solid #dee2e6; 
+	margin-bottom:5px;
+	padding: 12px;
+	border-radius: 2px;
 }
+#barra-calificacion{
+	margin: 5px;
+}
+
+
+
+
 
 
 /*formularios*/
@@ -53,6 +65,9 @@
 	max-width: 50px;
 	display: block;
 	margin: auto;
+}
+#tabla-votos-por-uniones img{
+	max-width: 50px;
 }
 
 /* index.html */
